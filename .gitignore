@@ -1,0 +1,11 @@
+# Artefactos generados: se regeneran con los scripts, no se versionan.
+build/
+.build/
+Alergenos.xcodeproj/
+Alergenos/Info.plist
+*.xcuserdatad/
+xcuserdata/
+.DS_Store
+
+# Las capturas de Capturas/ SÍ se versionan: son la evidencia visual que
+# muestran el README.

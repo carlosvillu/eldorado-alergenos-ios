@@ -1,0 +1,717 @@
+{
+  "origen": {
+    "fichero": "alergenos.html",
+    "descripcion": "Transcripción de las dos tablas de alérgenos fotografiadas en el puesto del Restaurante El Dorado.",
+    "generadoPor": "app-ios/tools/extract.mjs — no editar a mano"
+  },
+  "alergenos": [
+    {
+      "id": "gluten",
+      "nombre": "Gluten",
+      "nombreEn": "Gluten",
+      "color": "#C05A2E"
+    },
+    {
+      "id": "crustaceos",
+      "nombre": "Crustáceos",
+      "nombreEn": "Crustaceans",
+      "color": "#2E9BC4"
+    },
+    {
+      "id": "huevos",
+      "nombre": "Huevos",
+      "nombreEn": "Eggs",
+      "color": "#E07B39"
+    },
+    {
+      "id": "pescado",
+      "nombre": "Pescado",
+      "nombreEn": "Fish",
+      "color": "#2C4E9E"
+    },
+    {
+      "id": "cacahuetes",
+      "nombre": "Cacahuetes",
+      "nombreEn": "Peanuts",
+      "color": "#8C5A38"
+    },
+    {
+      "id": "soja",
+      "nombre": "Soja",
+      "nombreEn": "Soybeans",
+      "color": "#4C9E45"
+    },
+    {
+      "id": "sesamo",
+      "nombre": "Sésamo",
+      "nombreEn": "Sesame",
+      "color": "#96925F"
+    },
+    {
+      "id": "frutos",
+      "nombre": "Frutos de cáscara",
+      "nombreEn": "Tree nuts",
+      "color": "#A63A46"
+    },
+    {
+      "id": "apio",
+      "nombre": "Apio",
+      "nombreEn": "Celery",
+      "color": "#7CB43C"
+    },
+    {
+      "id": "mostaza",
+      "nombre": "Mostaza",
+      "nombreEn": "Mustard",
+      "color": "#A97B23"
+    },
+    {
+      "id": "lacteos",
+      "nombre": "Lácteos",
+      "nombreEn": "Milk",
+      "color": "#6B4A33"
+    },
+    {
+      "id": "sulfitos",
+      "nombre": "Sulfitos",
+      "nombreEn": "Sulphites",
+      "color": "#7B4A8C"
+    },
+    {
+      "id": "altramuces",
+      "nombre": "Altramuces",
+      "nombreEn": "Lupin",
+      "color": "#DFA32C"
+    },
+    {
+      "id": "moluscos",
+      "nombre": "Moluscos",
+      "nombreEn": "Molluscs",
+      "color": "#37AECB"
+    }
+  ],
+  "secciones": [
+    {
+      "id": "entrantes",
+      "titulo": "Entrantes",
+      "tituloEn": "Starters",
+      "nota": null,
+      "notaEn": null,
+      "platos": [
+        {
+          "id": "entrantes-croquetas",
+          "nombre": "Croquetas",
+          "alergenos": [
+            "gluten",
+            "huevos",
+            "lacteos"
+          ]
+        },
+        {
+          "id": "entrantes-lagrimitas",
+          "nombre": "Lagrimitas",
+          "alergenos": [
+            "gluten",
+            "soja",
+            "apio",
+            "sulfitos",
+            "altramuces"
+          ]
+        },
+        {
+          "id": "entrantes-nuggets",
+          "nombre": "Nuggets",
+          "alergenos": [
+            "gluten",
+            "huevos",
+            "soja",
+            "apio",
+            "mostaza",
+            "lacteos",
+            "sulfitos"
+          ]
+        },
+        {
+          "id": "entrantes-fingers",
+          "nombre": "Fingers",
+          "alergenos": [
+            "gluten",
+            "crustaceos",
+            "huevos",
+            "pescado",
+            "soja",
+            "apio",
+            "mostaza",
+            "lacteos",
+            "sulfitos",
+            "moluscos"
+          ]
+        },
+        {
+          "id": "entrantes-alitas",
+          "nombre": "Alitas",
+          "alergenos": [
+            "gluten",
+            "huevos",
+            "lacteos"
+          ]
+        },
+        {
+          "id": "entrantes-bocas-de-mar",
+          "nombre": "Bocas de mar",
+          "alergenos": [
+            "gluten",
+            "crustaceos",
+            "huevos",
+            "pescado",
+            "soja"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ensaladas",
+      "titulo": "Ensaladas",
+      "tituloEn": "Salads",
+      "nota": null,
+      "notaEn": null,
+      "platos": [
+        {
+          "id": "ensaladas-dorado",
+          "nombre": "Dorado",
+          "alergenos": [
+            "frutos",
+            "lacteos"
+          ]
+        },
+        {
+          "id": "ensaladas-cesar",
+          "nombre": "César",
+          "alergenos": [
+            "gluten",
+            "crustaceos",
+            "huevos",
+            "pescado",
+            "soja",
+            "frutos",
+            "apio",
+            "mostaza",
+            "lacteos",
+            "sulfitos",
+            "moluscos"
+          ]
+        },
+        {
+          "id": "ensaladas-tropical",
+          "nombre": "Tropical",
+          "alergenos": [
+            "crustaceos",
+            "huevos",
+            "frutos"
+          ]
+        },
+        {
+          "id": "ensaladas-shawarma",
+          "nombre": "Shawarma",
+          "alergenos": [
+            "soja",
+            "apio",
+            "mostaza",
+            "lacteos"
+          ]
+        },
+        {
+          "id": "ensaladas-pollo-asado",
+          "nombre": "Pollo asado",
+          "alergenos": [
+            "huevos",
+            "lacteos"
+          ]
+        },
+        {
+          "id": "ensaladas-mixta",
+          "nombre": "Mixta",
+          "alergenos": [
+            "pescado"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "patatas-fritas",
+      "titulo": "Patatas fritas",
+      "tituloEn": "Fried potatoes",
+      "nota": "Finas o naturales: la tabla original pone «consultar sin gluten». Pregúntalo en el puesto.",
+      "notaEn": "Thin or natural: the original chart says “ask about gluten-free”. Please check at the stall.",
+      "platos": [
+        {
+          "id": "patatas-fritas-shaw-queso-y-yogurt",
+          "nombre": "Shaw, queso y yogurt",
+          "alergenos": [
+            "huevos",
+            "soja",
+            "apio",
+            "mostaza",
+            "lacteos"
+          ]
+        },
+        {
+          "id": "patatas-fritas-bacon-queso-y-yogurt",
+          "nombre": "Bacon, queso y yogurt",
+          "alergenos": [
+            "huevos",
+            "soja",
+            "lacteos"
+          ]
+        },
+        {
+          "id": "patatas-fritas-deluxe",
+          "nombre": "Deluxe",
+          "alergenos": [
+            "gluten"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "platos-combinados",
+      "titulo": "Platos combinados",
+      "tituloEn": "Combo plates",
+      "nota": null,
+      "notaEn": null,
+      "platos": [
+        {
+          "id": "platos-combinados-pollo-con-ensalada",
+          "nombre": "Pollo con ensalada",
+          "alergenos": [
+            "pescado"
+          ]
+        },
+        {
+          "id": "platos-combinados-shawarma-con-patatas",
+          "nombre": "Shawarma con patatas",
+          "alergenos": [
+            "huevos",
+            "soja",
+            "apio",
+            "mostaza",
+            "lacteos"
+          ]
+        },
+        {
+          "id": "platos-combinados-shawarma-con-ensalada",
+          "nombre": "Shawarma con ensalada",
+          "alergenos": [
+            "huevos",
+            "soja",
+            "apio",
+            "mostaza",
+            "lacteos"
+          ]
+        },
+        {
+          "id": "platos-combinados-buey-con-patatas",
+          "nombre": "Buey con patatas",
+          "alergenos": [
+            "gluten",
+            "soja",
+            "lacteos",
+            "sulfitos"
+          ]
+        },
+        {
+          "id": "platos-combinados-buey-con-ensalada",
+          "nombre": "Buey con ensalada",
+          "alergenos": [
+            "gluten",
+            "pescado",
+            "soja",
+            "lacteos",
+            "sulfitos"
+          ]
+        },
+        {
+          "id": "platos-combinados-ternera-con-patatas",
+          "nombre": "Ternera con patatas",
+          "alergenos": [
+            "gluten",
+            "soja",
+            "lacteos",
+            "sulfitos"
+          ]
+        },
+        {
+          "id": "platos-combinados-ternera-con-ensalada",
+          "nombre": "Ternera con ensalada",
+          "alergenos": [
+            "gluten",
+            "pescado",
+            "soja",
+            "lacteos",
+            "sulfitos"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "perritos",
+      "titulo": "Perritos",
+      "tituloEn": "Hot dogs",
+      "nota": null,
+      "notaEn": null,
+      "platos": [
+        {
+          "id": "perritos-normal",
+          "nombre": "Normal",
+          "alergenos": [
+            "gluten",
+            "huevos",
+            "soja"
+          ]
+        },
+        {
+          "id": "perritos-con-bacon-y-queso",
+          "nombre": "Con bacon y queso",
+          "alergenos": [
+            "gluten",
+            "soja",
+            "lacteos"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "camperos",
+      "titulo": "Camperos",
+      "tituloEn": "Camperos (toasted roll)",
+      "nota": null,
+      "notaEn": null,
+      "platos": [
+        {
+          "id": "camperos-dorado-pollo-asado",
+          "nombre": "Dorado pollo asado",
+          "alergenos": [
+            "gluten",
+            "huevos",
+            "soja",
+            "lacteos"
+          ]
+        },
+        {
+          "id": "camperos-shawarma",
+          "nombre": "Shawarma",
+          "alergenos": [
+            "gluten",
+            "soja",
+            "apio",
+            "mostaza",
+            "lacteos"
+          ]
+        },
+        {
+          "id": "camperos-pinchito-pollo-o-cerdo",
+          "nombre": "Pinchito pollo o cerdo",
+          "alergenos": [
+            "gluten",
+            "soja",
+            "lacteos"
+          ]
+        },
+        {
+          "id": "camperos-pollo-asado",
+          "nombre": "Pollo asado",
+          "alergenos": [
+            "gluten",
+            "soja",
+            "lacteos"
+          ]
+        },
+        {
+          "id": "camperos-atun",
+          "nombre": "Atún",
+          "alergenos": [
+            "gluten",
+            "pescado",
+            "soja",
+            "lacteos"
+          ]
+        },
+        {
+          "id": "camperos-bacon",
+          "nombre": "Bacon",
+          "alergenos": [
+            "gluten",
+            "soja",
+            "lacteos"
+          ]
+        },
+        {
+          "id": "camperos-adobado",
+          "nombre": "Adobado",
+          "alergenos": [
+            "gluten",
+            "soja",
+            "lacteos"
+          ]
+        },
+        {
+          "id": "camperos-tortilla-de-patatas",
+          "nombre": "Tortilla de patatas",
+          "alergenos": [
+            "gluten",
+            "soja",
+            "lacteos"
+          ]
+        },
+        {
+          "id": "camperos-de-huevo",
+          "nombre": "De huevo",
+          "alergenos": [
+            "gluten",
+            "soja",
+            "lacteos"
+          ]
+        },
+        {
+          "id": "camperos-normal",
+          "nombre": "Normal",
+          "alergenos": [
+            "gluten",
+            "soja",
+            "lacteos"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "baguettes",
+      "titulo": "Baguettes",
+      "tituloEn": "Baguettes",
+      "nota": null,
+      "notaEn": null,
+      "platos": [
+        {
+          "id": "baguettes-serranito-pollo-o-cerdo",
+          "nombre": "Serranito pollo o cerdo",
+          "alergenos": [
+            "gluten",
+            "huevos"
+          ]
+        },
+        {
+          "id": "baguettes-burguer",
+          "nombre": "Burguer",
+          "alergenos": [
+            "gluten",
+            "soja",
+            "mostaza"
+          ]
+        },
+        {
+          "id": "baguettes-pinchito-pollo-o-cerdo",
+          "nombre": "Pinchito pollo o cerdo",
+          "alergenos": [
+            "gluten",
+            "huevos",
+            "soja"
+          ]
+        },
+        {
+          "id": "baguettes-pollo-o-cerdo",
+          "nombre": "Pollo o cerdo",
+          "alergenos": [
+            "gluten",
+            "huevos",
+            "soja"
+          ]
+        },
+        {
+          "id": "baguettes-adobado",
+          "nombre": "Adobado",
+          "alergenos": [
+            "gluten",
+            "huevos",
+            "soja"
+          ]
+        },
+        {
+          "id": "baguettes-tortilla-de-patatas",
+          "nombre": "Tortilla de patatas",
+          "alergenos": [
+            "gluten",
+            "huevos",
+            "soja"
+          ]
+        },
+        {
+          "id": "baguettes-vegetal",
+          "nombre": "Vegetal",
+          "alergenos": [
+            "gluten",
+            "huevos",
+            "soja"
+          ]
+        },
+        {
+          "id": "baguettes-shawarma",
+          "nombre": "Shawarma",
+          "alergenos": [
+            "gluten",
+            "soja",
+            "apio",
+            "mostaza",
+            "lacteos"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hamburguesas",
+      "titulo": "Hamburguesas",
+      "tituloEn": "Burgers",
+      "nota": null,
+      "notaEn": null,
+      "platos": [
+        {
+          "id": "hamburguesas-buey",
+          "nombre": "Buey",
+          "alergenos": [
+            "gluten",
+            "huevos",
+            "soja",
+            "lacteos",
+            "sulfitos"
+          ]
+        },
+        {
+          "id": "hamburguesas-doble-ternera",
+          "nombre": "Doble ternera",
+          "alergenos": [
+            "gluten",
+            "soja",
+            "mostaza",
+            "lacteos",
+            "sulfitos"
+          ]
+        },
+        {
+          "id": "hamburguesas-super",
+          "nombre": "Súper",
+          "alergenos": [
+            "gluten",
+            "huevos",
+            "soja",
+            "lacteos"
+          ]
+        },
+        {
+          "id": "hamburguesas-doble-pan-campero",
+          "nombre": "Doble pan campero",
+          "alergenos": [
+            "gluten",
+            "huevos",
+            "soja",
+            "lacteos",
+            "sulfitos"
+          ]
+        },
+        {
+          "id": "hamburguesas-pollo-empanado",
+          "nombre": "Pollo empanado",
+          "alergenos": [
+            "gluten",
+            "huevos",
+            "cacahuetes",
+            "soja",
+            "apio",
+            "mostaza",
+            "lacteos",
+            "sulfitos"
+          ]
+        },
+        {
+          "id": "hamburguesas-ternera",
+          "nombre": "Ternera",
+          "alergenos": [
+            "gluten",
+            "huevos",
+            "soja",
+            "lacteos",
+            "sulfitos"
+          ]
+        },
+        {
+          "id": "hamburguesas-de-pollo",
+          "nombre": "De pollo",
+          "alergenos": [
+            "gluten",
+            "huevos",
+            "soja"
+          ]
+        },
+        {
+          "id": "hamburguesas-cerdo-o-cresta",
+          "nombre": "Cerdo o cresta",
+          "alergenos": [
+            "gluten",
+            "huevos",
+            "soja"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shawarma",
+      "titulo": "Shawarma",
+      "tituloEn": "Shawarma",
+      "nota": null,
+      "notaEn": null,
+      "platos": [
+        {
+          "id": "shawarma-rollo-o-pita",
+          "nombre": "Rollo o pita",
+          "alergenos": [
+            "gluten",
+            "huevos",
+            "soja",
+            "apio",
+            "mostaza",
+            "lacteos"
+          ]
+        }
+      ]
+    }
+  ],
+  "dudas": [
+    "Entrantes|Croquetas",
+    "Entrantes|Lagrimitas",
+    "Entrantes|Nuggets",
+    "Entrantes|Fingers",
+    "Entrantes|Alitas",
+    "Entrantes|Bocas de mar",
+    "Patatas fritas|Deluxe",
+    "Hamburguesas|Pollo empanado"
+  ],
+  "procedencia": [
+    {
+      "titulo": "Procedencia",
+      "texto": "Transcripción de las dos tablas de alérgenos fotografiadas en el puesto (agosto de 2026). Todo va dentro de este archivo, fotos incluidas: no depende de ningún otro fichero. Añádela a la pantalla de inicio para tenerla a mano sin buscar el QR."
+    },
+    {
+      "titulo": "Pendiente de revisión",
+      "texto": "Antes de usarla con clientes, una persona del establecimiento debe cotejar esta página con la tabla original y con cocina. Las recetas y los proveedores cambian; esta transcripción no sustituye a la información oficial del puesto."
+    }
+  ],
+  "tema": {
+    "papel": "#F1E8D2",
+    "carta": "#FBF6E9",
+    "tinta": "#262219",
+    "tinta2": "#6B6350",
+    "linea": "#D9CDAE",
+    "lineaFuerte": "#B7A87F",
+    "ok": "#1E6E3F",
+    "okSuave": "#E4EFE0",
+    "no": "#B3261E",
+    "noSuave": "#F7E4E0"
+  }
+}

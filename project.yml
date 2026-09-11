@@ -1,0 +1,111 @@
+name: Alergenos
+
+options:
+  bundleIdPrefix: es.eldorado
+  deploymentTarget:
+    iOS: "17.0"
+  createIntermediateGroups: true
+  groupSortPosition: top
+
+attributes:
+  ORGANIZATIONNAME: Restaurante El Dorado
+
+settings:
+  base:
+    # Swift 5 mode: el proyecto no gana nada con el modo 6 y sí mucho ruido de
+    # concurrencia estricta. Decisión consciente, no accidente.
+    SWIFT_VERSION: "5.0"
+    SWIFT_STRICT_CONCURRENCY: minimal
+    IPHONEOS_DEPLOYMENT_TARGET: "17.0"
+    # El simulador es iOS 18.6 y el SDK instalado es 26.2: compilamos contra el
+    # SDK nuevo apuntando a 17.0 y evitando APIs exclusivas de iOS 26.
+    CODE_SIGNING_ALLOWED: "NO"
+    CODE_SIGNING_REQUIRED: "NO"
+    CODE_SIGN_IDENTITY: ""
+    ALWAYS_SEARCH_USER_PATHS: "NO"
+    CLANG_ENABLE_OBJC_WEAK: "YES"
+
+targets:
+  Alergenos:
+    type: application
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - path: Alergenos
+    info:
+      path: Alergenos/Info.plist
+      properties:
+        CFBundleDisplayName: Alérgenos
+        CFBundleName: Alergenos
+        CFBundleShortVersionString: "1.0"
+        CFBundleVersion: "1"
+        CFBundleDevelopmentRegion: es
+        LSRequiresIPhoneOS: true
+        LSApplicationCategoryType: public.app-category.food-and-drink
+        ITSAppUsesNonExemptEncryption: false
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: es.eldorado.alergenos
+        PRODUCT_NAME: Alergenos
+        TARGETED_DEVICE_FAMILY: "1"
+        GENERATE_INFOPLIST_FILE: "NO"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        MARKETING_VERSION: "1.0"
+        CURRENT_PROJECT_VERSION: "1"
+        SWIFT_EMIT_LOC_STRINGS: "NO"
+
+  AlergenosTests:
+    type: bundle.unit-test
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - path: AlergenosTests
+      # Los tests cargan los mismos JSON que la app, así que el bundle de
+      # pruebas los lleva también y no dependen del bundle anfitrión.
+      - path: Alergenos/Resources
+    dependencies:
+      - target: Alergenos
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: es.eldorado.alergenos.tests
+        GENERATE_INFOPLIST_FILE: "YES"
+
+  # Pruebas de interfaz: pulsan la app de verdad en el simulador (marcar
+  # alérgenos, buscar, abrir el detalle, navegar) y dejan capturas de cada
+  # pantalla como evidencia.
+  AlergenosUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - path: AlergenosUITests
+    dependencies:
+      - target: Alergenos
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: es.eldorado.alergenos.uitests
+        GENERATE_INFOPLIST_FILE: "YES"
+
+schemes:
+  Alergenos:
+    build:
+      targets:
+        Alergenos: all
+        AlergenosTests: [test]
+        AlergenosUITests: [test]
+    run:
+      config: Debug
+    test:
+      config: Debug
+      targets:
+        - AlergenosTests
+        - AlergenosUITests
+    profile:
+      config: Release
+    archive:
+      config: Release
